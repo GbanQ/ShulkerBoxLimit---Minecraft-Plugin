@@ -1,0 +1,13 @@
+name: ShulkerBoxLimit
+version: '${project.version}'
+main: org.sincerityworld.shulkerboxlimit.ShulkerBoxLimit
+api-version: '1.20'
+authors: [ G_Ban_Q ]
+commands:
+  setshulkerlimit:
+    description: Sets the number of shulker boxes that can be carried in the inventory
+    usage: /setshulkerlimit <amount>
+  permissions:
+    shulkerlimit.set:
+      description: Allows setting the number of shulker boxes that can be carried in the inventory
+      default: op
